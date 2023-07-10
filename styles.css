@@ -1,0 +1,29 @@
+body{
+    background-color: #121212;
+}
+
+.container {
+    margin: 10vh auto;
+    width: 500px;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #121212;
+}
+
+h1 {
+    font-family: cursive;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 50px;
+}
+
+input {
+    height: 40px;
+    width: 370px;
+    padding: 0.5rem 2rem;
+    font-size: 3rem;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #121212;
+}
