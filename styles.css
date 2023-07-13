@@ -1,5 +1,5 @@
 body{
-    background-color: #121212;
+    background-color: white;
 }
 
 .container {
@@ -22,8 +22,9 @@ input {
     height: 40px;
     width: 370px;
     padding: 0.5rem 2rem;
-    font-size: 3rem;
+    font-size: 2rem;
     border-radius: 5px;
-    text-align: center;
+    text-align: left;
     background-color: #121212;
+    color: whitesmoke;
 }
