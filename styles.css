@@ -1,30 +1,53 @@
-body{
-    background-color: white;
+body {
+  background-color: #121212;
 }
 
 .container {
-    margin: 10vh auto;
-    width: 500px;
-    padding: 2rem;
-    text-align: center;
-    border-radius: 10px;
-    background-color: #121212;
+  margin: 10vh auto;
+  width: 500px;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #121212;
 }
 
 h1 {
-    font-family: cursive;
-    color: whitesmoke;
-    text-align: center;
-    font-size: 50px;
+  font-family: cursive;
+  color: #9c9c9c;
+  text-align: center;
+  font-size: 50px;
 }
 
-input {
-    height: 40px;
-    width: 370px;
-    padding: 0.5rem 2rem;
-    font-size: 2rem;
-    border-radius: 5px;
-    text-align: left;
-    background-color: #121212;
-    color: whitesmoke;
+#input {
+  height: 40px;
+  width: 370px;
+  padding: 0.5rem 2rem;
+  font-size: 2rem;
+  border-radius: 5px;
+  text-align: left;
+  background-color: #121212;
+  color: #9c9c9c;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#display {
+  color: #9c9c9c;
+  font-size: 2rem;
+  text-align: left;
+  padding-top: 10px;
+  font-family: 'Courier New', Courier, monospace
+}
+
+.buttons {
+  justify-content: center;
+  padding-top: 15px;
+}
+
+button {
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 20%;
+  background-color: #121212;
+  color: #9c9c9c;
+  font-weight: 400;
 }
